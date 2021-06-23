@@ -78,21 +78,30 @@ section .title{
         transform: translateX(-50%);
     }
 
-    /* ------------------page loader------------------------ */
-svg {
-    position: absolute;
-}
-
-circle:nth-of-type(1) { fill: #ffffff; }
-circle:nth-of-type(2) { fill: #a2e4fa; }
-circle:nth-of-type(3) { fill: #59d6ff; }
-circle:nth-of-type(4) { fill: #00bfff; }
+/* ------------------page loader------------------------ */
 .page-loader{
     position: fixed;
     left: 0;
     right: 0;
     height: 100%;
     width: 100%;
+    background-color: var(--dark);
+    z-index: 999;
+}
+.page-loader.fade-out{
+    opacity: 0;
+}
+.page-loader::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: var(--main-color);
+    left: calc(50% - 50px);
+    top: calc(50% - 2px);
+    animation: pageLoader 1s linear infinite;
+    transition: all 0.6s ease ;
+}    width: 100%;
     background-color: var(--dark);
     z-index: 999;
 }

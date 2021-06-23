@@ -8,7 +8,6 @@ window.addEventListener("load", function () {
     AOS.init();
 
 });
-
 $(document).ready(function () {
     $(window).scroll(function () {
         if (this.scrollY > 20) {
@@ -26,13 +25,13 @@ $(document).ready(function () {
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Student", "Developer", "Blogger", "Video Editor", "Designer", "Sketch Artist"],
+        strings: ["YouTuber", "Student", "Developer", "Vlogger", "Video Editor", "Designer", "Sketch Artist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Student", "Developer", "Blogger", "Video Editor", "Designer", "Sketch Artist"],
+        strings: ["YouTuber", "Student", "Developer", "Vlogger", "Video Editor", "Designer", "Sketch Artist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
