@@ -201,7 +201,7 @@ body {
 .home{
     overflow: hidden;
     display: flex;
-    background: url("./images/PicsArt_02-18-07.25.10-02.jpeg") no-repeat center;
+    background: url("./images/background.png") no-repeat center;
     height: 100vh;
     color: var(--white);
     min-height: 500px;
