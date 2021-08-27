@@ -5,6 +5,7 @@
 
 /*  ---------------------variables-------------------------------*/
 :root{
+    --
     --main-color: #00bfff;
     --dark: #242526;
     --dark-light: #3a3b3c;
@@ -190,10 +191,11 @@ nav ul{
 
 /* menu button styling */
 .menu-btn{
-    color: var(--dark);
+    color: red;
     font-size: 23px;
     cursor: pointer;
     display: none;
+    shadow: 1px 2px 15px var(--white);
 }
 
 /* --------------------------buttons---------------------- */ 
@@ -225,12 +227,12 @@ nav ul{
     position: sticky;
     right: 20px;
     bottom: 20px;
-    box-shadow: -0px -0px 10px var(--white-light);
+    box-shadow: -0px -0px 15px var(--dark-light);
 
 }
 
 .float-button:hover{
-box-shadow: -0px -0px 15px var(--main-color);
+box-shadow: -0px -0px 15px #00bfff;
 }
 /* ------------ home section------------*/
 .home{
