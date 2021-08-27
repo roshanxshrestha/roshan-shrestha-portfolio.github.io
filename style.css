@@ -13,8 +13,16 @@
     --shadow: 0 0 15px rgba(0,0,0,0.25);
     --cursive-font: 'Dancing Script', cursive;
     scroll-behavior: smooth;
-
-
+}
+.light-theme{
+    --main-color: #00bfff;
+    --white: #242526;
+    --white-light: #3a3b3c;
+    --dark: #ffffff;
+    --dark-light: #c8c8c8;
+    --shadow: 0 0 15px rgba(0,0,0,0.25);
+    --cursive-font: 'Dancing Script', cursive;
+    scroll-behavior: smooth;
 }
 
 /* global setting --------------------------------------------------------*/
@@ -118,7 +126,10 @@ section .title{
     animation: pageLoader 1s linear infinite;
     transition: all 0.6s ease;
 }
-
+#iconn{
+    width: 30px;
+    cursor: pointer;
+}
 body {
     background: #231f20;
 }
@@ -153,10 +164,11 @@ body {
     display: inline-block;
 }
 .navbar .menu li a{
-    color: var(--white);
+    color: red;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
@@ -165,13 +177,25 @@ body {
 .navbar.sticky .menu li a:hover{
     color:var(--main-color);
 }
+.navbar  img{
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: right;
+}
+nav ul{
+    
+    flex: 1;
+    text-align: right;
+}
+
 /* menu button styling */
 .menu-btn{
-    color: var(--white);
+    color: var(--dark);
     font-size: 23px;
     cursor: pointer;
     display: none;
 }
+
 /* --------------------------buttons---------------------- */ 
 .btn{
     display: inline-block;
@@ -201,7 +225,7 @@ body {
     position: sticky;
     right: 20px;
     bottom: 20px;
-    box-shadow: -0px -0px 10px white;
+    box-shadow: -0px -0px 10px var(--white-light);
 
 }
 
@@ -214,10 +238,10 @@ box-shadow: -0px -0px 15px var(--main-color);
     display: flex;
     background: url("./images/background.png") no-repeat center;
     height: 100vh;
-    color: var(--white);
+    color: whitesmoke;
     min-height: 500px;
     font-family: 'Ubuntu',sans-serif;
-    background-color: black;
+    background-color: var(--dark);
     animation: zoomInOut 20s ease infinite;
 }
 .home .max-width{
@@ -272,14 +296,14 @@ box-shadow: -0px -0px 15px var(--main-color);
         font-size: 25px;
         font-weight: 600;
         margin-bottom: 10px;
-        color: white;
+        color: var(--white);
     }
     .about .about-content .right .text span{
         color: var(--main-color);
     }
     .about .about-content .right  p{
         text-align: justify;
-        color: white;
+        color: var(--white);
     }
     .about .about-content .right .btn-default{
         margin-top: 25px;
@@ -344,7 +368,7 @@ box-shadow: -0px -0px 15px var(--main-color);
 }
     .services .serv-content p{
 
-        color: white;
+        color: var(--white);
     }
 
 

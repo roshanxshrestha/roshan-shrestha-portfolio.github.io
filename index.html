@@ -59,6 +59,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <img src="./images/sun.png" id="icon">
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
@@ -322,6 +323,19 @@
     <script src="./js/aos.js"></script>
     <script src="script.js"></script>
     <script src="https://apis.google.com/js/platform.js"></script>
+    <!-- theme switch -->
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function () {
+            document.body.classList.toggle("light-theme");
+            if (document.body.classList.contains("light-theme")) {
+                icon.src = "./images/moon.png";
+            }
+            else {
+                icon.src = "./images/sun.png";
+            }
+        }
+    </script>
 
 </body>
 
