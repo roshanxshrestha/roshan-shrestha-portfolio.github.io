@@ -101,7 +101,7 @@ section .title{
     top: calc(50% - 2px);
     animation: pageLoader 1s linear infinite;
     transition: all 0.6s ease ;
-}    width: 100%;
+    width: 100%;
     background-color: var(--dark);
     z-index: 999;
 }
@@ -196,7 +196,18 @@ body {
     color: var(--white);
     background-color: var(--main-color);
 }
+.float-button{
+    display: inline-flex;
+    position: sticky;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: -0px -0px 10px white;
 
+}
+
+.float-button:hover{
+box-shadow: -0px -0px 15px var(--main-color);
+}
 /* ------------ home section------------*/
 .home{
     overflow: hidden;
