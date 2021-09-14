@@ -194,7 +194,7 @@ nav ul{
     font-size: 23px;
     cursor: pointer;
     display: none;
-    shadow: 1px 2px 15px var(--white);
+    /* shadow: 1px 2px 15px var(--white); */
 }
 
 /* --------------------------buttons---------------------- */ 
@@ -223,16 +223,47 @@ nav ul{
 }
 .float-button{
     display: inline-flex;
+    padding: 1px;
+    color: var(--dark-light);
     position: sticky;
     right: 20px;
     bottom: 20px;
+    border: 2px solid;
     box-shadow: -0px -0px 15px var(--dark-light);
 
 }
 
 .float-button:hover{
-box-shadow: -0px -0px 15px #00bfff;
+    color: red;
+    cursor: default;
 }
+.theme-btn{
+    display: inline-flex;
+    padding: 4px;
+    font-size: 20px;
+    background-color:transparent;
+    border-radius: 50px;
+    
+    font-weight: 500;
+    transition: all 0.5s ease;
+    
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--white);
+    user-select: none;
+    border: none;
+    background-color: var(--dark-light);
+}
+.theme-btn:hover{
+
+    color: var(--white);
+    background-color: var(--main-color);
+
+}
+.fas{
+    font-size: 20px;
+}
+
 /* ------------ home section------------*/
 .home{
     overflow: hidden;
