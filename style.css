@@ -463,10 +463,10 @@ nav ul{
     background: var(--main-color);
 }
 .skills-content .right .html::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .js::before{
     width: 30%;
