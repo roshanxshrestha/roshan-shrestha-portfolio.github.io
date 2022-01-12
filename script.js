@@ -19,8 +19,8 @@ $(document).ready(function () {
     // toggle menu/navbar
     $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i ').toggleClass("active");
-        menubar.classList.remove('active');
+        $('.menu-btn i').toggleClass("active");
+  
     });
 
     // typing animation script
