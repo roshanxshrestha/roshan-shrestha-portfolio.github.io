@@ -23,6 +23,9 @@
   --cursive-font: "Dancing Script", cursive;
   scroll-behavior: smooth;
 }
+.light-theme .home{
+  background-image: url(./images/whitebg.jpg);
+}
 
 /* global setting --------------------------------------------------------*/
 * {
@@ -280,16 +283,19 @@ nav ul {
 }
 .home .home-content .text-1 {
   font-size: 27px;
+  color: #00bfff;
 }
 .home .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
+  color: #00bfff;
 }
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
   padding-bottom: 20px;
+
 }
 .home .home-content .text-3 span {
   color: var(--main-color);
