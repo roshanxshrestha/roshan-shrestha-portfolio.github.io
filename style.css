@@ -4,7 +4,7 @@
 
 /*  ---------------------variables-------------------------------*/
 :root {
-  --main-color: #00bfff;
+  --main-color: #00bdff;
   --dark: #242526;
   --dark-light: #3a3b3c;
   --white: #ffffff;
@@ -14,7 +14,7 @@
   scroll-behavior: smooth;
 }
 .light-theme {
-  --main-color: #00bfff;
+  --main-color: #0dbdff;
   --white: #242526;
   --white-light: #3a3b3c;
   --dark: #ffffff;
@@ -283,13 +283,13 @@ nav ul {
 }
 .home .home-content .text-1 {
   font-size: 27px;
-  color: #00bfff;
+  color: var(--main-color);
 }
 .home .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
-  color: #00bfff;
+  color:var(--main-color);
 }
 .home .home-content .text-3 {
   font-size: 40px;
