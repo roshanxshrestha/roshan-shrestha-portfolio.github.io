@@ -459,25 +459,25 @@ nav ul {
   background: var(--main-color);
 }
 .skills-content .right .html::before {
-  width: 80%;
+  width: 100%;
 }
 .skills-content .right .css::before {
-  width: 80%;
+  width: 100%;
 }
 .skills-content .right .js::before {
-  width: 30%;
+  width: 100%;
 }
 .skills-content .right .cc::before {
-  width: 80%;
+  width: 100%;
 }
 .skills-content .right .adobe::before {
-  width: 70%;
+  width: 100%;
 }
 .skills-content .right .sketch::before {
-  width: 85%;
+  width: 100%;
 }
 .skills-content .right .motovlog::before {
-  width: 75%;
+  width: 100%;
 }
 
 /* -----------projects section styling------------------------- */
