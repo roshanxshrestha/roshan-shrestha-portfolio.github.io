@@ -170,7 +170,7 @@ body {
   display: inline-block;
 }
 .navbar .menu li a {
-  color: red;
+  color: var(--white);
   font-size: 18px;
   font-weight: 500;
   margin-left: 10px;
@@ -601,8 +601,11 @@ nav ul {
 .contact .column i {
   color: var(--main-color);
   transition: color 0.3s ease;
+  
 }
-
+.fa-phone{
+  transform: rotateY(180deg);
+}
 .contact p {
   color: var(--white);
   transition: color 0.3s ease;
@@ -824,3 +827,4 @@ nav ul {
     margin-left: 0px;
   }
 }
+
