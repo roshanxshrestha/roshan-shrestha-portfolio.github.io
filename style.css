@@ -221,9 +221,10 @@ nav ul {
 }
 .btn-default {
   border: 2px solid var(--main-color);
+  
 }
 .btn-default:hover {
-  color: var(--white);
+  color: var(--dark);
   background-color: var(--main-color);
 }
 .float-button {
@@ -270,7 +271,7 @@ nav ul {
 .home {
   overflow: hidden;
   display: flex;
-  background: url("./images/roshanxshrestha.png") no-repeat center;
+  
   height: 100vh;
   color: whitesmoke;
   min-height: 500px;
@@ -278,9 +279,14 @@ nav ul {
   background-color: var(--dark);
   animation: zoomInOut 20s ease infinite;
 }
+.home{
+  background: url("./images/roshanxshrestha.png") no-repeat center;
+
+}
 .home .max-width {
   margin: auto 0 auto 40px;
 }
+
 .home .home-content .text-1 {
   font-size: 27px;
   color: var(--main-color);
@@ -432,7 +438,7 @@ nav ul {
   text-align: justify;
 }
 .skills .skills-content .right .bars {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 .skills .skills-content .right .info {
   display: flex;
@@ -446,10 +452,10 @@ nav ul {
 .skills .skills-content .right .line {
   height: 5px;
   width: 100%;
-  background: var(--white-light);
+  background: var(--main-color);
   position: relative;
 }
-.skills .skills-content .right .line::before {
+/* .skills .skills-content .right .line::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -478,7 +484,7 @@ nav ul {
 }
 .skills-content .right .motovlog::before {
   width: 100%;
-}
+} */
 
 /* -----------projects section styling------------------------- */
 .projects {
