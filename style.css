@@ -5,8 +5,8 @@
 /*  ---------------------variables-------------------------------*/
 :root {
   --main-color: #00bdff;
-  --dark: #242526;
-  --dark-light: #3a3b3c;
+  --dark: #15202a;
+  --dark-light: #1d2a35;
   --white: #ffffff;
   --white-light: #c8c8c8;
   --shadow: 0 0 15px rgba(0, 0, 0, 0.25);
@@ -15,8 +15,8 @@
 }
 .light-theme {
   --main-color: #0dbdff;
-  --white: #242526;
-  --white-light: #3a3b3c;
+  --white: #15202a;
+  --white-light: #1d2a35;
   --dark: #ffffff;
   --dark-light: #c8c8c8;
   --shadow: 0 0 15px rgba(0, 0, 0, 0.25);
@@ -427,6 +427,7 @@ nav ul {
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
+
 }
 .skills .skills-content .left .text {
   font-size: 20px;
