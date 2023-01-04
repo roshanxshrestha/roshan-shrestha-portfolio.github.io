@@ -20,18 +20,17 @@ $(document).ready(function () {
     $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
-  
     });
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Learner", "Web Designer", " Web Developer", "Video Editor","Graphic Designer", "Sketch Artist"],
+        strings: ["Learner", "App Developer", " Web Developer", "Video Editor", "Technology Enthusiast"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Student", "Developer", "Vlogger", "Video Editor", "Designer", "Sketch Artist"],
+        strings: ["Learner", "App Developer", " Web Developer", "Video Editor", "Technology Enthusiast"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
