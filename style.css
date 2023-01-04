@@ -24,7 +24,7 @@
   scroll-behavior: smooth;
 }
 .light-theme .home{
-  background-image: url(./images/roshanshrestha1.jpg);
+  background-image: url(./assets/images/roshanshrestha1.jpg);
 }
 
 /* global setting --------------------------------------------------------*/
@@ -280,7 +280,7 @@ nav ul {
   animation: zoomInOut 20s ease infinite;
 }
 .home{
-  background: url("./images/roshanxshrestha.png") no-repeat center;
+  background: url("./assets/images/roshanxshrestha.png") no-repeat center;
 
 }
 .home .max-width {
