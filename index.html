@@ -1,353 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description"
-        content="It is an official website of Roshan Shrestha | Programmer/Learner ">
-    <meta name="keywords"
-        content="roshan, roshan shrestha, roshanxshrestha,roshanshrestha, youtuber, vlogger, instagrammer, roshan shrestha github, roshan shrestha programmer, roshan shrestha coder,roshan shrestha videographer,dr roshan shrestha, roshan shrestha photographer,roshan shrestha content-creator, roshan shrestha graphics designer, md roshan shrestha,roshan shrestha freelancer">
-    <meta name="author" content="Roshan Shrestha">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-    <link rel="icon" href="./assets/images/metal.png" sizes="512x512" type="image/jpg">
-    <title>ROSHAN SHRESTHA | Official Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/828ee17a2b.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <meta name="google-site-verification" content="uwJ79XRo9yBq7dJ_wkjhlwcIbLw_6FFYd_LTTzTILwM" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./css/aos.css">
-    <meta property="fb:pages" content="106608611013730" />
-    <script type='application/ld+json'>
-    {
-        "@content":"https://shrestharoshan.info.np",
-        "@type": "Official Website",
-        "headline": "Roshan Shrestha | Official Website",
-        "description": "Hi, I am Roshan Shrestha. I am a Programmer/Learner.",
-        "image": "https://stharoshan.info.np/assets/images/roshanxshrestha.png",
-    }    
-    </script>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Hello, I am Roshan Shrestha | Programmer/Learner">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio_design">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>ROSHAN SHRESTHA</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '2489421903';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <style>
+    .container{
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #101110;
+    }
+    .indicator{
+      width: 20vw;
+    }
+  </style>
 </head>
-
-<body>
-    <!-- page loader starts -->
-    <div class="page-loader"></div>
-    <!-- page loader ends -->
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#"><span><img src="./assets/images/metal.png" width="50px" alt="logo"></span></a>
-                <div class="float-button">
-                    <div class="g-ytsubscribe" data-channelid="UCS7XbN9vbD0wN0La6EuGN8A" data-layout="default"
-                        data-theme="dark" data-count="default"></div>
-                </div>
-            </div>
-
-            <ul class="menu">
-
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div>
-                <div class="theme-btn fas fa-adjust" id="icon"></div>
-                <div class="menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-    </nav>
-
-    <!-- ------home section starts -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content" data-aos="fade-up" data-aos-duration="1000">
-                <div class="text-1">An Official Website of</div>
-                <div class="text-2">Roshan Shrestha</div>
-                <div class="text-3"><span class="typing"></span></div>
-                <a href="#contact" class="btn btn-default">Contact Me</a>
-            </div>
-        </div>
-    </section>
-    <!-- home section ends -->
-
-    <!-- about section starts -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title" data-aos="fade-up">About Me</h2>
-            <div class="about-content">
-                <div class="column left " data-aos="fade-right">
-                    <img src="./assets/images/roshan_shrestha.jpeg" alt="profile image">
-                </div>
-                <div class="column right" data-aos="fade-left">
-                    <div class="text">I'm Roshan and I'm <span class="typing-2"></span></div>
-                    <p>Hey, I am Roshan Shrestha.
-                        Programmer/Learner. I'm currently into learning FLUTTER.
-                        I have been doing some app development projects recently.<br>Also, I'm familiar with web design, and development (figma,html, css &
-                        js), and seo. I take some Video Editing Projects in my
-                        spare
-                        time. I
-                        am also an idle Portrait Artist.</p>
-                        <a href="assets/pdf/ROSHAN_SHRESTHA.pdf" class="btn btn-default" target="_blank">Download CV</a>
-                    <a href="#skills" class="btn btn-default">My Skills</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about section ends -->
-    <!-- services section starts  -->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title" data-aos="fade-up">My Services</h2>
-            <div class="serv-content">
-
-                <div class="card" data-aos="fade-up">
-                    <a href="mailto:mail.roshanxshrestha@gmail.com?subject=Develop me an app!" target="_blank">
-                        <div class="box">
-                            <i class="fas fa-rocket"></i>
-                            <div class="text">App Development</div>
-                            <p>develop a cool cross-platform app</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card" data-aos="fade-up">
-                    <a href="mailto:mail.roshanxshrestha@gmail.com?subject=Design me a Website!" target="_blank">
-                        <div class="box">
-                            <i class="fas fa-paint-brush"></i>
-                            <div class="text">Web Design</div>
-                            <p>create a portfolio or a cool website</p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="card" data-aos="fade-up">
-                    <a href="mailto:mail.roshanxshrestha@gmail.com?subject=Edit my Videos!" target="_blank">
-                        <div class="box">
-                            <i class="fas fa-film"></i>
-                            <div class="text">Video Editing</div>
-                            <p>edit videos</p>
-                        </div>
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!-- services section ends -->
-    <!-- skill section starts -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title" data-aos="fade-up">My Skills</h2>
-            <div class="skills-content">
-                <div class="column left" data-aos="fade-right">
-                    <div class="text">What am I into these days?</div>
-                    <p>I'm currently into learning FLUTTER. I have been doing some app development projects recently.<br>I've gathered some knowledge on web designing (FIGMA), developing (html, css & js) and seo.<br>Also, I am familiar with the various tools and panels of ADOBE
-                        Systems
-                        (Premiere Pro, Illustrator, Photoshop, Lightroom).
-                        <br>I
-                        am also an idle Portrait Artist.
-                    </p>
-                    <a href="assets/pdf/ROSHAN_SHRESTHA.pdf"
-                        class="btn btn-default" target="_blank">Download CV</a>
-                </div>
-                <div class="column right" data-aos="fade-left">
-                    <div class="bars">
-                        <div class="info">
-                            <span>FLUTTER</span>
-                            <span></span>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span></span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span></span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JAVASCRIPT</span>
-                            <span></span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>C/ C++</span>
-                            <span></span>
-                        </div>
-                        <div class="line cc"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>ADOBE SYSTEMS</span>
-                            <span></span>
-                        </div>
-                        <div class="line adobe"></div>
-                    </div>
-                    
-                    <div class="bars">
-                        <div class="info">
-                            <span>SEO</span>
-                            <span></span>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>FIGMA</span>
-                            <span></span>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>SKETCH</span>
-                            <span></span>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- skill section ends -->
-
-    <!-- projects section starts -->
-    <section class="projects" id="projects">
-        <div class="max-width">
-            <h2 class="title" data-aos="fade-up">My Projects</h2>
-            <div class="carousel owl-carousel" data-aos="zoom-in">
-                <a href="https://www.youtube.com/c/roshanxshrestha/videos" target="_blank">
-                    <div class="card ">
-                        <div class="box">
-                            <video controls autoplay width="150" height="150">
-                                <source src="./assets/images/0001aaalogointro.mp4" type="video/mp4">
-                            </video>
-                            <div class="text">Latest on YouTube</div>
-                            <p>My recent uploads on YouTube. Watch them now!</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://pajulounge.com.np/" target="_blank">
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/project1_PAJU.png" alt="project1_paju">
-                            <div class="text">Paju Lounge</div>
-                            <p>I’ve recently worked on the Paju Lounge Business Website.
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://youtu.be/dw956lryW-c" target="_blank">
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/redmetal.png" alt="project2_yt">
-                            <div class="text">YouTube Intro Video</div>
-                            <p>My recent introduction video in my youtube channel</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://www.pinterest.com/roshanxshrestha/my-sketches/" target="_blank">
-                    <div class="card ">
-                        <div class="box">
-                            <img src="./assets/images/project3_art.jpeg" alt="project3_art">
-                            <div class="text">Sketches</div>
-                            <p>Some of the sketches that I’ve done lately.</p>
-                        </div>
-                    </div>
-                </a>
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- projects section ends -->
-    <!-- contact section starts -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title" data-aos="fade-up">Contact Me</h2>
-            <div class="contact-content">
-                <div class="column" data-aos="fade-up">
-                    <i class="fas fa-location-arrow"></i>
-                    <div class="text">Address</div>
-
-                    <a href="https://www.google.com/maps/search/sitapaila+chowk+ring+road+kathmandu/@27.7071523,85.2808556,16.94z?hl=en"
-                        target="_blank">Sitapaila, Kathmandu</a>
-                </div>
-                <div class="column" data-aos="fade-up">
-                    <i class="fas fa-envelope"></i>
-                    <div class="text">Email</div>
-                    <a href="mailto:roshanxshrestha@gmail.com" target="_blank">roshanxshrestha@gmail.com</a>
-                </div>
-                <div class="column" data-aos="fade-up">
-                    <i class="fas fa-phone"></i>
-                    <div class="text">Phone</div>
-                    <a href="tel:+977 9828211181" target="_blank">+977 98282111**</a>
-                </div>
-            </div>
-            <div class="social-links" data-aos="fade-up">
-                <a href="https://www.facebook.com/xroshanxshresthax/" target="_blank"><i
-                        class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/roshanxshrestha/" target="_blank"><i
-                        class="fab fa-instagram-square"></i></a>
-                <a href="https://www.pinterest.com/roshanxshrestha/" target="_blank"><i
-                        class="fab fa-pinterest-square"></i></a>
-                <a href="https://www.youtube.com/c/roshanxshrestha?sub_confirmation=1" target="_blank"><i
-                        class="fab fa-youtube-square"></i></a>
-                <a href="https://github.com/roshanxshrestha" target="_blank"><i class="fab fa-github-square"></i></a>
-                <a href="https://twitter.com/roshanxshrestha" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.linkedin.com/in/roshanxshrestha/" target="_blank"><i class="fab fa fa-linkedin-square"></i></a>
-            </div>
-            <div class="copyright" data-aos="zoom-in">
-                <p> &copy; 2021 <a href="https://shrestharoshan.info.np/" target="_blank">Roshan
-                        Shrestha
-            </div></a></p>
-        </div>
-    </section>
-
-    <!-- contact section ends -->
-    <script src="./js/aos.js"></script>
-    <script src="script.js"></script>
-    <script src="https://apis.google.com/js/platform.js"></script>
-    <script src="http://bdimg.share.baidu.com/static/api/js/share.js"></script>
-    <!-- theme switch -->
-    <script>
-        var icon = document.getElementById("icon");
-        icon.onclick = function () {
-            document.body.classList.toggle("light-theme");
-            if (document.body.classList.contains("light-theme")) {
-                icon.src = "./assets/images/moon.png";
-            }
-            else {
-                icon.src = "./assets/images/sun.png";
-            }
+<body style="overflow: hidden;">
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./assets/loading.gif" alt="loading...">
+  </div>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
         }
-    </script>
-
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+  <script>
+    window.onload = function(){
+      setTimeout(function(){
+        var loadingIndicator = document.getElementById("loading_indicator");
+        if(loadingIndicator){
+          loadingIndicator.remove();
+        }
+      },10000);
+    }
+  </script>
 </body>
-
 </html>
